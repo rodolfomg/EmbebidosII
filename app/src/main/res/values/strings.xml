@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Proyecto</string>
+    <string name="user_hint">Usuario o correo</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="login">Entrar</string>
+</resources>

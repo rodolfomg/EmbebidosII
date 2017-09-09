@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rodolfomg.proyecto.Login"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight=".6">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight=".4"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="@string/user_hint"
+            android:layout_marginStart="@dimen/login_input_margin"
+            android:layout_marginEnd="@dimen/login_input_margin"
+            android:layout_marginTop="@dimen/login_input_margin">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="@string/password_hint"
+            android:layout_marginStart="@dimen/login_input_margin"
+            android:layout_marginEnd="@dimen/login_input_margin">
+
+        </EditText>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/login"
+            android:layout_marginStart="@dimen/login_input_margin"
+            android:layout_marginEnd="@dimen/login_input_margin"
+            android:layout_marginTop="20dp">
+
+        </Button>
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="¿No tienes cuenta? Registrate ahora"
+                android:gravity="center"
+                android:layout_marginStart="@dimen/login_input_margin"
+                android:layout_marginEnd="@dimen/login_input_margin">
+
+            </TextView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
