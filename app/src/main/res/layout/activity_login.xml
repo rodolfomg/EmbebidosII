@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.rodolfomg.proyecto.Login"
+    tools:context="com.example.rodolfomg.proyecto.LoginActivity"
     android:orientation="vertical"
     android:weightSum="1">
 
@@ -56,7 +56,8 @@
             android:text="@string/login"
             android:layout_marginStart="@dimen/login_input_margin"
             android:layout_marginEnd="@dimen/login_input_margin"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="20dp"
+            android:onClick="validateLogin">
 
         </Button>
 
