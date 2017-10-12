@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/actionbar_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_vertical_margin"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/name"
+                android:hint="@string/create_account_hint_name"
+                style="@style/crate_account_input">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/username"
+                android:hint="@string/create_account_hint_username"
+                style="@style/crate_account_input">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/password"
+                android:hint="@string/create_account_hint_password"
+                android:inputType="textPassword"
+                style="@style/crate_account_input">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/email"
+                android:hint="@string/create_account_hint_email"
+                android:inputType="textEmailAddress"
+                style="@style/crate_account_input">
+
+            </EditText>
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight=".6"
+                android:gravity="bottom">
+
+                <Button
+                    android:id="@+id/signup"
+                    android:text="@string/create_account_button_done"
+                    style="@style/primary_button">
+
+                </Button>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

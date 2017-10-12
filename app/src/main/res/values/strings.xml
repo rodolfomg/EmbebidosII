@@ -3,4 +3,10 @@
     <string name="user_hint">Usuario o correo</string>
     <string name="password_hint">Contraseña</string>
     <string name="login">Entrar</string>
+    <string name="create_account_hint_name">Nombre</string>
+    <string name="create_account_hint_username">Usuario</string>
+    <string name="create_account_hint_password">Contraseña</string>
+    <string name="create_account_hint_email">Correo</string>
+    <string name="create_account_button_done">Registrar</string>
+    <string name="create_account_toolbar">Crear cuenta</string>
 </resources>
