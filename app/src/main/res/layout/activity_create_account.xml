@@ -61,6 +61,7 @@
                 <Button
                     android:id="@+id/signup"
                     android:text="@string/create_account_button_done"
+                    android:onClick="onClickSignUp"
                     style="@style/primary_button">
 
                 </Button>
