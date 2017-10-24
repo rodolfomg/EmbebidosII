@@ -1,8 +1,13 @@
 package com.example.rodolfomg.proyecto;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
+
+import com.example.rodolfomg.proyecto.views.AlbumActivity;
+import com.example.rodolfomg.proyecto.views.CreateAccountActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,5 +24,10 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle(name);
         getSupportActionBar().setDisplayHomeAsUpEnabled(upButton);
+    }
+
+    public void goToAlbums(View view){
+        Intent intent = new Intent(this, AlbumActivity.class);
+        startActivity(intent);
     }
 }
