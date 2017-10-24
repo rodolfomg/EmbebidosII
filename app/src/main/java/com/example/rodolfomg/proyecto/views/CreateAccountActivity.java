@@ -1,4 +1,4 @@
-package com.example.rodolfomg.proyecto.Views;
+package com.example.rodolfomg.proyecto.views;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import com.example.rodolfomg.proyecto.MainActivity;
 import com.example.rodolfomg.proyecto.R;

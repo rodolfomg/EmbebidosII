@@ -1,4 +1,4 @@
-package com.example.rodolfomg.proyecto.Models;
+package com.example.rodolfomg.proyecto.models;
 
 import java.util.Date;
 

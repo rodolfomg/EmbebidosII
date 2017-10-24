@@ -9,4 +9,8 @@
     <string name="create_account_hint_email">Correo</string>
     <string name="create_account_button_done">Registrar</string>
     <string name="create_account_toolbar">Crear cuenta</string>
+    <string name="main_toolbar">Menu</string>
+    <string name="album_card">Album</string>
+    <string name="band_card">Band</string>
+    <string name="album_year_card">(1989)</string>
 </resources>

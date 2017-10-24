@@ -1,4 +1,4 @@
-package com.example.rodolfomg.proyecto.Models;
+package com.example.rodolfomg.proyecto.models;
 
 /**
  * Created by rodolfomg on 11/09/17.

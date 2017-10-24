@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.rodolfomg.proyecto.views.CreateAccountActivity;
+
 public class LoginActivity extends AppCompatActivity {
 
     @Override
@@ -22,6 +24,11 @@ public class LoginActivity extends AppCompatActivity {
         Toast.makeText(this, username.getText()+", "+password.getText(), Toast.LENGTH_LONG).show();
 
         Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void onClickSignUp(View view){
+        Intent intent = new Intent(this, CreateAccountActivity.class);
         startActivity(intent);
     }
 }
