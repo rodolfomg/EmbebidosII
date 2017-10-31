@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/calendar"
+        title="Calendar"
+        barColorWhenSelected="@color/colorAccent"
+        icon="@drawable/ic_date_range"/>
+
+    <tab
+        id="@+id/home"
+        title="Home"
+        barColorWhenSelected="@color/colorAccent"
+        icon="@drawable/ic_home"/>
+
+    <tab
+        id="@+id/profile"
+        title="Profile"
+        barColorWhenSelected="@color/colorAccent"
+        icon="@drawable/ic_user"/>
+</tabs>
