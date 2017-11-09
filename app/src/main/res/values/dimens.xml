@@ -7,4 +7,5 @@
     <dimen name="band_textsize_card">24sp</dimen>
     <dimen name="fab_margin">20dp</dimen>
     <dimen name="floating_button_margin">20dp</dimen>
+    <dimen name="bottom_bar_height">70dp</dimen>
 </resources>
